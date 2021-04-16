@@ -1,0 +1,117 @@
+body{
+  background: #4E535B;
+  font-family:'Open Sans', Arial, sans-serif;
+  font-size: 1em;
+}
+h2{
+  text-align: center;
+  color: #F1F2F4;
+  text-shadow: 0 1px 0 #000;
+}
+a{
+  text-decoration: none; color: #EC5C93; 
+}
+
+.hidden{
+  display: none;
+}
+
+.login{
+  margin: 50px auto;
+  background: #F1F2F4;
+  border-bottom: 2px solid #C5C5C8;
+  border-radius: 5px;
+  text-align: center;
+  color: #36383C;
+  text-shadow: 0 1px 0 #FFF;
+  max-width: 800px;
+  padding: 15px 40px 60px 40px;
+  box-shadow: 0 0 3px #000;
+  border-bottom: 10px solid #BDBFC2;
+  border-top: 1px solid #FFFFFF;
+}
+
+h1{
+  font-size: 1.6em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+p{
+  font-family:'Open Sans', Arial, sans-serif;
+  font-weight: 300;
+  color: #7B808A;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+
+button{
+  margin-top: 20px;
+  display: inline-block;
+  width: 50%;
+  line-height: 2em;
+  background: rgba(114,212,202,1);
+  border-radius: 5px;
+  border:0;
+  cursor: pointer;
+  border-top: 1px solid #B2ECE6;
+  box-shadow: 0 0 0 1px #46A294, 0 2px 2px #808389;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  text-shadow: 0 1px 2px #21756A;
+}
+.button-table{
+  
+  display: block;
+  width: 33.333%;
+  background: rgba(114,212,202,1);
+  border:0;
+  box-shadow: 0 0 0 1px #46A294, 0 2px 2px #808389;
+  color: #FFFFFF;
+  font-size: 1.2em;
+  text-shadow: 0 1px 2px #21756A;
+  float:left;
+}
+button:hover{
+ background: linear-gradient(to bottom, rgba(107,198,186,1) 0%,rgba(57,175,154,1) 100%);  
+}
+button:active{
+  box-shadow: inset 0 0 5px #000;
+  background: linear-gradient(to bottom, rgba(57,175,154,1) 0%,rgba(107,198,186,1) 100%); 
+}
+.floated-left{
+  float:left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+tr {
+   display: table-row; 
+ 
+}
+
+td {
+  display: table-cell;
+  text-align: center;
+  border: none;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  width: 15em;
+  height: 2.5em;
+}
+
+td:not(.no-p) {
+  padding: 10px;
+}
+
+.form{
+  margin-top: 30px;
+}
+.error, #error {
+  font-size: 18px;
+  color: red;
+}
